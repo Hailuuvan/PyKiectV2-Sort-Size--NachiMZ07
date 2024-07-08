@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1342</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>175</width>
+        <height>540</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget
+ {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Detect</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>175</width>
+        <height>540</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget
+ {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Gray</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>960</width>
+        <height>540</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget
+ {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>10</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    border-radius: 10px; /* Điều chỉnh bán kính bo góc */
+    border: 1px solid #000; /* Điều chỉnh đường viền */
+	background-color:#dbd9dc;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Frame</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
