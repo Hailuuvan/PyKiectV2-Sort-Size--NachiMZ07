@@ -14,3 +14,4 @@ image_recognition_singlecam.py cho phép trích xuất nền và phát hiện th
 
 XYZ_realdworldxyz.py lấy các điểm ảnh u,v của vật thể được phát hiện và chuyển đổi chúng thành tọa độ thế giới thực.
 ## Robot 
+run_playback_box.py chạy robot nachi mz07 bằng socket communication (TCP/IP)
